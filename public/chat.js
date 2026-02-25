@@ -15,7 +15,7 @@ let chatHistory = [
 	{
 		role: "assistant",
 		content:
-			"Hello! Im Ben, How can I help? ",
+			"Hello! Im Ben, How can I help? wanna go full screen for better access visit: https://llm-chat-app-template.sawyerbobk563.workers.dev/",
 	},
 ];
 let isProcessing = false;
