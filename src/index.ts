@@ -65,9 +65,9 @@ async function handleChatRequest(
 			MODEL_ID,
 			{
 				messages: cleanMessages,
-				max_tokens: 1200, // Slightly increased for philosophical depth while remaining concise
+				max_tokens: 987, // Slightly increased for philosophical depth while remaining concise
 				stream: true,
-				temperature: 0.6, // Balanced for creative thought and factual accuracy
+				temperature: 0.8, // Balanced for creative thought and factual accuracy
 				top_p: 0.9,
 			}
 		);
